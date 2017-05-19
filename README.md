@@ -99,7 +99,6 @@ fun main(args: Array<String>) {
     {
         println(country)
     }
-
     //lets print the countries again using while loop
     var index = 0
     while (index<countries.size)
@@ -107,8 +106,9 @@ fun main(args: Array<String>) {
         println("Country at index $index is ${countries[index]}")
         index++ //this is how you increment the value of var by 1
     }
-    //In Kotlin we don't have switch case, like we have it in C, C++ and many languages that are influenced by C or C++
-    //In Kotlin we have when, lets see it in action
+    // In Kotlin we don't have switch case, like we have it in C, C++ and many languages that are influenced by C or C++
+    // In Kotlin we have when, lets see it in action
+    
     var i = 1
     when(i)
     {
@@ -118,7 +118,6 @@ fun main(args: Array<String>) {
                 println("i is neither") //Notice this, it is written in block
             }
     }
-
     //Kotlin does have a feature of checking a var in certain range, whether that variable is in the specified range or not
     //Lets see it in action
     var t = 23
@@ -139,7 +138,6 @@ fun printSum(a:Int, b: Int)
 {
     println("Sum of $a and $b is ${a+b}")
 }
-
 //Method for checking who is bigger
 fun whoIsBigger(a:Int, b:Int):Int
 {
