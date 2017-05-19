@@ -2,7 +2,7 @@
  * A N00b's Guide to Kotlin
  * v 1.0.0 RV1
  */
-//You are always require to make at least one entry point into your program and this is main() a
+//You are always require to make at least one entry point into your program and this is called main() 
 //and always created like this
 fun main(args: Array<String>) {
 
