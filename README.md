@@ -1,9 +1,11 @@
-/**
- * A N00b's Guide to Kotlin
- * v 1.0.0 RV1
- */
-//You are always require to make at least one entry point into your program and this is main() a
-//and always created like this
+# A N00b's Guide to Kotlin
+# V.1
+
+// You are always require to make at least one entry point into your program and this is main() a
+// and always created like this
+
+
+
 fun main(args: Array<String>) {
     /*
     A Multiline comment
